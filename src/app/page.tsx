@@ -1,3 +1,9 @@
+import ScrollHero from '@/components/scroll-hero';
+
 export default function Home() {
-  return <></>;
+  return (
+    <main>
+      <ScrollHero />
+    </main>
+  );
 }
