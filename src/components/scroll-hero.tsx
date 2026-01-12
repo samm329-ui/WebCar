@@ -177,7 +177,7 @@ export default function ScrollHero() {
           </div>
         )}
         <canvas ref={canvasRef} className="absolute inset-0 z-0 h-full w-full" />
-        <div className="absolute inset-0 z-5 bg-gradient-to-t from-black/70 via-black/20 to-transparent pointer-events-none"></div>
+        <div className="absolute inset-0 z-5 bg-gradient-to-t from-black via-black/30 to-transparent pointer-events-none"></div>
         <div className="absolute inset-0 z-10">
           {TEXT_SECTIONS.map((section) => (
             <div
