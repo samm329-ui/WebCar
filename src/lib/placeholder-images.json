@@ -1,892 +1,1444 @@
 {
   "placeholderImages": [
     {
-      "id": "sequence-0000",
-      "description": "Abstract animation frame 0",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-001",
+      "description": "Car animation frame 1",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-001.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0001",
-      "description": "Abstract animation frame 1",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-002",
+      "description": "Car animation frame 2",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-002.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0002",
-      "description": "Abstract animation frame 2",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-003",
+      "description": "Car animation frame 3",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-003.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0003",
-      "description": "Abstract animation frame 3",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-004",
+      "description": "Car animation frame 4",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-004.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0004",
-      "description": "Abstract animation frame 4",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-005",
+      "description": "Car animation frame 5",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-005.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0005",
-      "description": "Abstract animation frame 5",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852914-f9cb6fddd135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-006",
+      "description": "Car animation frame 6",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-006.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0006",
-      "description": "Abstract animation frame 6",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-007",
+      "description": "Car animation frame 7",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-007.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0007",
-      "description": "Abstract animation frame 7",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-008",
+      "description": "Car animation frame 8",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-008.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0008",
-      "description": "Abstract animation frame 8",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-009",
+      "description": "Car animation frame 9",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-009.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0009",
-      "description": "Abstract animation frame 9",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-010",
+      "description": "Car animation frame 10",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-010.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0010",
-      "description": "Abstract animation frame 10",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852912-810d9d664b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-011",
+      "description": "Car animation frame 11",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-011.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0011",
-      "description": "Abstract animation frame 11",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-012",
+      "description": "Car animation frame 12",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-012.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0012",
-      "description": "Abstract animation frame 12",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-013",
+      "description": "Car animation frame 13",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-013.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0013",
-      "description": "Abstract animation frame 13",
-      "imageUrl": "https://images.unsplash.com/photo-1611405744250-42ca3340d4c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-014",
+      "description": "Car animation frame 14",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-014.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0014",
-      "description": "Abstract animation frame 14",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-015",
+      "description": "Car animation frame 15",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-015.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0015",
-      "description": "Abstract animation frame 15",
-      "imageUrl": "https://images.unsplash.com/photo-1611405744250-42ca3340d4c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-016",
+      "description": "Car animation frame 16",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-016.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0016",
-      "description": "Abstract animation frame 16",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-017",
+      "description": "Car animation frame 17",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-017.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0017",
-      "description": "Abstract animation frame 17",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-018",
+      "description": "Car animation frame 18",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-018.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0018",
-      "description": "Abstract animation frame 18",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-019",
+      "description": "Car animation frame 19",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-019.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0019",
-      "description": "Abstract animation frame 19",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852914-f9cb6fddd135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-020",
+      "description": "Car animation frame 20",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-020.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0020",
-      "description": "Abstract animation frame 20",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-021",
+      "description": "Car animation frame 21",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-021.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0021",
-      "description": "Abstract animation frame 21",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-022",
+      "description": "Car animation frame 22",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-022.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0022",
-      "description": "Abstract animation frame 22",
-      "imageUrl": "https://images.unsplash.com/photo-1611405744250-42ca3340d4c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-023",
+      "description": "Car animation frame 23",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-023.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0023",
-      "description": "Abstract animation frame 23",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-024",
+      "description": "Car animation frame 24",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-024.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0024",
-      "description": "Abstract animation frame 24",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-025",
+      "description": "Car animation frame 25",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-025.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0025",
-      "description": "Abstract animation frame 25",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852914-f9cb6fddd135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-026",
+      "description": "Car animation frame 26",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-026.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0026",
-      "description": "Abstract animation frame 26",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-027",
+      "description": "Car animation frame 27",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-027.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0027",
-      "description": "Abstract animation frame 27",
-      "imageUrl": "https://images.unsplash.com/photo-1611405744250-42ca3340d4c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-028",
+      "description": "Car animation frame 28",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-028.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0028",
-      "description": "Abstract animation frame 28",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-029",
+      "description": "Car animation frame 29",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-029.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0029",
-      "description": "Abstract animation frame 29",
-      "imageUrl": "https://images.unsplash.com/photo-1611405744250-42ca3340d4c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-030",
+      "description": "Car animation frame 30",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-030.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0030",
-      "description": "Abstract animation frame 30",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-031",
+      "description": "Car animation frame 31",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-031.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0031",
-      "description": "Abstract animation frame 31",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-032",
+      "description": "Car animation frame 32",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-032.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0032",
-      "description": "Abstract animation frame 32",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852914-f9cb6fddd135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-033",
+      "description": "Car animation frame 33",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-033.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0033",
-      "description": "Abstract animation frame 33",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852912-810d9d664b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-034",
+      "description": "Car animation frame 34",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-034.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0034",
-      "description": "Abstract animation frame 34",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852914-f9cb6fddd135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-035",
+      "description": "Car animation frame 35",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-035.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0035",
-      "description": "Abstract animation frame 35",
-      "imageUrl": "https://images.unsplash.com/photo-1611405744250-42ca3340d4c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-036",
+      "description": "Car animation frame 36",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-036.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0036",
-      "description": "Abstract animation frame 36",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-037",
+      "description": "Car animation frame 37",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-037.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0037",
-      "description": "Abstract animation frame 37",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-038",
+      "description": "Car animation frame 38",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-038.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0038",
-      "description": "Abstract animation frame 38",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-039",
+      "description": "Car animation frame 39",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-039.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0039",
-      "description": "Abstract animation frame 39",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-040",
+      "description": "Car animation frame 40",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-040.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0040",
-      "description": "Abstract animation frame 40",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-041",
+      "description": "Car animation frame 41",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-041.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0041",
-      "description": "Abstract animation frame 41",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-042",
+      "description": "Car animation frame 42",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-042.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0042",
-      "description": "Abstract animation frame 42",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-043",
+      "description": "Car animation frame 43",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-043.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0043",
-      "description": "Abstract animation frame 43",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-044",
+      "description": "Car animation frame 44",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-044.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0044",
-      "description": "Abstract animation frame 44",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-045",
+      "description": "Car animation frame 45",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-045.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0045",
-      "description": "Abstract animation frame 45",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-046",
+      "description": "Car animation frame 46",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-046.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0046",
-      "description": "Abstract animation frame 46",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-047",
+      "description": "Car animation frame 47",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-047.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0047",
-      "description": "Abstract animation frame 47",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-048",
+      "description": "Car animation frame 48",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-048.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0048",
-      "description": "Abstract animation frame 48",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-049",
+      "description": "Car animation frame 49",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-049.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0049",
-      "description": "Abstract animation frame 49",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852914-f9cb6fddd135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-050",
+      "description": "Car animation frame 50",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-050.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0050",
-      "description": "Abstract animation frame 50",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-051",
+      "description": "Car animation frame 51",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-051.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0051",
-      "description": "Abstract animation frame 51",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-052",
+      "description": "Car animation frame 52",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-052.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0052",
-      "description": "Abstract animation frame 52",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-053",
+      "description": "Car animation frame 53",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-053.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0053",
-      "description": "Abstract animation frame 53",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-054",
+      "description": "Car animation frame 54",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-054.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0054",
-      "description": "Abstract animation frame 54",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-055",
+      "description": "Car animation frame 55",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-055.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0055",
-      "description": "Abstract animation frame 55",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852912-810d9d664b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-056",
+      "description": "Car animation frame 56",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-056.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0056",
-      "description": "Abstract animation frame 56",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-057",
+      "description": "Car animation frame 57",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-057.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0057",
-      "description": "Abstract animation frame 57",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852914-f9cb6fddd135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-058",
+      "description": "Car animation frame 58",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-058.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0058",
-      "description": "Abstract animation frame 58",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-059",
+      "description": "Car animation frame 59",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-059.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0059",
-      "description": "Abstract animation frame 59",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852912-810d9d664b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-060",
+      "description": "Car animation frame 60",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-060.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0060",
-      "description": "Abstract animation frame 60",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852912-810d9d664b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-061",
+      "description": "Car animation frame 61",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-061.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0061",
-      "description": "Abstract animation frame 61",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-062",
+      "description": "Car animation frame 62",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-062.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0062",
-      "description": "Abstract animation frame 62",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-063",
+      "description": "Car animation frame 63",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-063.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0063",
-      "description": "Abstract animation frame 63",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-064",
+      "description": "Car animation frame 64",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-064.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0064",
-      "description": "Abstract animation frame 64",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-065",
+      "description": "Car animation frame 65",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-065.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0065",
-      "description": "Abstract animation frame 65",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-066",
+      "description": "Car animation frame 66",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-066.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0066",
-      "description": "Abstract animation frame 66",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-067",
+      "description": "Car animation frame 67",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-067.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0067",
-      "description": "Abstract animation frame 67",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-068",
+      "description": "Car animation frame 68",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-068.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0068",
-      "description": "Abstract animation frame 68",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852912-810d9d664b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-069",
+      "description": "Car animation frame 69",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-069.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0069",
-      "description": "Abstract animation frame 69",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-070",
+      "description": "Car animation frame 70",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-070.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0070",
-      "description": "Abstract animation frame 70",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-071",
+      "description": "Car animation frame 71",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-071.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0071",
-      "description": "Abstract animation frame 71",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-072",
+      "description": "Car animation frame 72",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-072.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0072",
-      "description": "Abstract animation frame 72",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-073",
+      "description": "Car animation frame 73",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-073.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0073",
-      "description": "Abstract animation frame 73",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852912-810d9d664b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-074",
+      "description": "Car animation frame 74",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-074.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0074",
-      "description": "Abstract animation frame 74",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-075",
+      "description": "Car animation frame 75",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-075.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0075",
-      "description": "Abstract animation frame 75",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-076",
+      "description": "Car animation frame 76",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-076.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0076",
-      "description": "Abstract animation frame 76",
-      "imageUrl": "https://images.unsplash.com/photo-1611405744250-42ca3340d4c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-077",
+      "description": "Car animation frame 77",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-077.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0077",
-      "description": "Abstract animation frame 77",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-078",
+      "description": "Car animation frame 78",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-078.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0078",
-      "description": "Abstract animation frame 78",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-079",
+      "description": "Car animation frame 79",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-079.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0079",
-      "description": "Abstract animation frame 79",
-      "imageUrl": "https://images.unsplash.com/photo-1611405744250-42ca3340d4c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-080",
+      "description": "Car animation frame 80",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-080.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0080",
-      "description": "Abstract animation frame 80",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-081",
+      "description": "Car animation frame 81",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-081.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0081",
-      "description": "Abstract animation frame 81",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-082",
+      "description": "Car animation frame 82",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-082.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0082",
-      "description": "Abstract animation frame 82",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852914-f9cb6fddd135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-083",
+      "description": "Car animation frame 83",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-083.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0083",
-      "description": "Abstract animation frame 83",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-084",
+      "description": "Car animation frame 84",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-084.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0084",
-      "description": "Abstract animation frame 84",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-085",
+      "description": "Car animation frame 85",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-085.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0085",
-      "description": "Abstract animation frame 85",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-086",
+      "description": "Car animation frame 86",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-086.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0086",
-      "description": "Abstract animation frame 86",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-087",
+      "description": "Car animation frame 87",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-087.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0087",
-      "description": "Abstract animation frame 87",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-088",
+      "description": "Car animation frame 88",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-088.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0088",
-      "description": "Abstract animation frame 88",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852912-810d9d664b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-089",
+      "description": "Car animation frame 89",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-089.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0089",
-      "description": "Abstract animation frame 89",
-      "imageUrl": "https://images.unsplash.com/photo-1611405744250-42ca3340d4c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-090",
+      "description": "Car animation frame 90",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-090.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0090",
-      "description": "Abstract animation frame 90",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-091",
+      "description": "Car animation frame 91",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-091.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0091",
-      "description": "Abstract animation frame 91",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-092",
+      "description": "Car animation frame 92",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-092.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0092",
-      "description": "Abstract animation frame 92",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-093",
+      "description": "Car animation frame 93",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-093.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0093",
-      "description": "Abstract animation frame 93",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-094",
+      "description": "Car animation frame 94",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-094.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0094",
-      "description": "Abstract animation frame 94",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-095",
+      "description": "Car animation frame 95",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-095.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0095",
-      "description": "Abstract animation frame 95",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-096",
+      "description": "Car animation frame 96",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-096.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0096",
-      "description": "Abstract animation frame 96",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-097",
+      "description": "Car animation frame 97",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-097.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0097",
-      "description": "Abstract animation frame 97",
-      "imageUrl": "https://images.unsplash.com/photo-1611405744250-42ca3340d4c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-098",
+      "description": "Car animation frame 98",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-098.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0098",
-      "description": "Abstract animation frame 98",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-099",
+      "description": "Car animation frame 99",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-099.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0099",
-      "description": "Abstract animation frame 99",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-100",
+      "description": "Car animation frame 100",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-100.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0100",
-      "description": "Abstract animation frame 100",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-101",
+      "description": "Car animation frame 101",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-101.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0101",
-      "description": "Abstract animation frame 101",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-102",
+      "description": "Car animation frame 102",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-102.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0102",
-      "description": "Abstract animation frame 102",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-103",
+      "description": "Car animation frame 103",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-103.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0103",
-      "description": "Abstract animation frame 103",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852914-f9cb6fddd135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-104",
+      "description": "Car animation frame 104",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-104.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0104",
-      "description": "Abstract animation frame 104",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-105",
+      "description": "Car animation frame 105",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-105.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0105",
-      "description": "Abstract animation frame 105",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-106",
+      "description": "Car animation frame 106",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-106.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0106",
-      "description": "Abstract animation frame 106",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852912-810d9d664b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-107",
+      "description": "Car animation frame 107",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-107.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0107",
-      "description": "Abstract animation frame 107",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-108",
+      "description": "Car animation frame 108",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-108.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0108",
-      "description": "Abstract animation frame 108",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-109",
+      "description": "Car animation frame 109",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-109.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0109",
-      "description": "Abstract animation frame 109",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-110",
+      "description": "Car animation frame 110",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-110.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0110",
-      "description": "Abstract animation frame 110",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-111",
+      "description": "Car animation frame 111",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-111.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0111",
-      "description": "Abstract animation frame 111",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-112",
+      "description": "Car animation frame 112",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-112.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0112",
-      "description": "Abstract animation frame 112",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-113",
+      "description": "Car animation frame 113",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-113.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0113",
-      "description": "Abstract animation frame 113",
-      "imageUrl": "https://images.unsplash.com/photo-1611405744250-42ca3340d4c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-114",
+      "description": "Car animation frame 114",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-114.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0114",
-      "description": "Abstract animation frame 114",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-115",
+      "description": "Car animation frame 115",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-115.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0115",
-      "description": "Abstract animation frame 115",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-116",
+      "description": "Car animation frame 116",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-116.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0116",
-      "description": "Abstract animation frame 116",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-117",
+      "description": "Car animation frame 117",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-117.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0117",
-      "description": "Abstract animation frame 117",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-118",
+      "description": "Car animation frame 118",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-118.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0118",
-      "description": "Abstract animation frame 118",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852912-810d9d664b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-119",
+      "description": "Car animation frame 119",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-119.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0119",
-      "description": "Abstract animation frame 119",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-120",
+      "description": "Car animation frame 120",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-120.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0120",
-      "description": "Abstract animation frame 120",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-121",
+      "description": "Car animation frame 121",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-121.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0121",
-      "description": "Abstract animation frame 121",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-122",
+      "description": "Car animation frame 122",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-122.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0122",
-      "description": "Abstract animation frame 122",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-123",
+      "description": "Car animation frame 123",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-123.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0123",
-      "description": "Abstract animation frame 123",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852914-f9cb6fddd135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-124",
+      "description": "Car animation frame 124",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-124.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0124",
-      "description": "Abstract animation frame 124",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-125",
+      "description": "Car animation frame 125",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-125.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0125",
-      "description": "Abstract animation frame 125",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-126",
+      "description": "Car animation frame 126",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-126.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0126",
-      "description": "Abstract animation frame 126",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-127",
+      "description": "Car animation frame 127",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-127.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0127",
-      "description": "Abstract animation frame 127",
-      "imageUrl": "https://images.unsplash.com/photo-1765498173413-b428f5d0a17e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-128",
+      "description": "Car animation frame 128",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-128.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0128",
-      "description": "Abstract animation frame 128",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-129",
+      "description": "Car animation frame 129",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-129.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0129",
-      "description": "Abstract animation frame 129",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-130",
+      "description": "Car animation frame 130",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-130.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0130",
-      "description": "Abstract animation frame 130",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-131",
+      "description": "Car animation frame 131",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-131.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0131",
-      "description": "Abstract animation frame 131",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852912-810d9d664b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-132",
+      "description": "Car animation frame 132",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-132.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0132",
-      "description": "Abstract animation frame 132",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-133",
+      "description": "Car animation frame 133",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-133.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0133",
-      "description": "Abstract animation frame 133",
-      "imageUrl": "https://images.unsplash.com/photo-1611405744250-42ca3340d4c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-134",
+      "description": "Car animation frame 134",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-134.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0134",
-      "description": "Abstract animation frame 134",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-135",
+      "description": "Car animation frame 135",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-135.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0135",
-      "description": "Abstract animation frame 135",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852940-e2321fddabf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-136",
+      "description": "Car animation frame 136",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-136.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0136",
-      "description": "Abstract animation frame 136",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-137",
+      "description": "Car animation frame 137",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-137.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0137",
-      "description": "Abstract animation frame 137",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852989-18d6c868d1b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-138",
+      "description": "Car animation frame 138",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-138.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0138",
-      "description": "Abstract animation frame 138",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-139",
+      "description": "Car animation frame 139",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-139.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0139",
-      "description": "Abstract animation frame 139",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-140",
+      "description": "Car animation frame 140",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-140.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0140",
-      "description": "Abstract animation frame 140",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852885-33c22514e034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBzZXF1ZW5jZXxlbnwwfHx8fDE3NjgyNjAwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-141",
+      "description": "Car animation frame 141",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-141.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0141",
-      "description": "Abstract animation frame 141",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-142",
+      "description": "Car animation frame 142",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-142.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0142",
-      "description": "Abstract animation frame 142",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852912-810d9d664b2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-143",
+      "description": "Car animation frame 143",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-143.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0143",
-      "description": "Abstract animation frame 143",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-144",
+      "description": "Car animation frame 144",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-144.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0144",
-      "description": "Abstract animation frame 144",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-145",
+      "description": "Car animation frame 145",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-145.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0145",
-      "description": "Abstract animation frame 145",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852952-34de866f085b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-146",
+      "description": "Car animation frame 146",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-146.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0146",
-      "description": "Abstract animation frame 146",
-      "imageUrl": "https://images.unsplash.com/photo-1611518021620-a3a2539eef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-147",
+      "description": "Car animation frame 147",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-147.jpg",
+      "imageHint": "car render"
     },
     {
-      "id": "sequence-0147",
-      "description": "Abstract animation frame 147",
-      "imageUrl": "https://images.unsplash.com/photo-1741997852946-7e5252f2f6ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHNlcXVlbmNlfGVufDB8fHx8MTc2ODI2MDA0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract sequence"
+      "id": "sequence-148",
+      "description": "Car animation frame 148",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-148.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-149",
+      "description": "Car animation frame 149",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-149.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-150",
+      "description": "Car animation frame 150",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-150.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-151",
+      "description": "Car animation frame 151",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-151.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-152",
+      "description": "Car animation frame 152",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-152.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-153",
+      "description": "Car animation frame 153",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-153.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-154",
+      "description": "Car animation frame 154",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-154.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-155",
+      "description": "Car animation frame 155",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-155.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-156",
+      "description": "Car animation frame 156",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-156.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-157",
+      "description": "Car animation frame 157",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-157.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-158",
+      "description": "Car animation frame 158",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-158.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-159",
+      "description": "Car animation frame 159",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-159.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-160",
+      "description": "Car animation frame 160",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-160.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-161",
+      "description": "Car animation frame 161",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-161.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-162",
+      "description": "Car animation frame 162",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-162.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-163",
+      "description": "Car animation frame 163",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-163.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-164",
+      "description": "Car animation frame 164",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-164.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-165",
+      "description": "Car animation frame 165",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-165.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-166",
+      "description": "Car animation frame 166",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-166.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-167",
+      "description": "Car animation frame 167",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-167.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-168",
+      "description": "Car animation frame 168",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-168.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-169",
+      "description": "Car animation frame 169",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-169.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-170",
+      "description": "Car animation frame 170",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-170.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-171",
+      "description": "Car animation frame 171",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-171.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-172",
+      "description": "Car animation frame 172",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-172.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-173",
+      "description": "Car animation frame 173",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-173.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-174",
+      "description": "Car animation frame 174",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-174.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-175",
+      "description": "Car animation frame 175",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-175.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-176",
+      "description": "Car animation frame 176",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-176.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-177",
+      "description": "Car animation frame 177",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-177.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-178",
+      "description": "Car animation frame 178",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-178.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-179",
+      "description": "Car animation frame 179",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-179.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-180",
+      "description": "Car animation frame 180",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-180.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-181",
+      "description": "Car animation frame 181",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-181.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-182",
+      "description": "Car animation frame 182",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-182.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-183",
+      "description": "Car animation frame 183",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-183.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-184",
+      "description": "Car animation frame 184",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-184.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-185",
+      "description": "Car animation frame 185",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-185.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-186",
+      "description": "Car animation frame 186",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-186.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-187",
+      "description": "Car animation frame 187",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-187.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-188",
+      "description": "Car animation frame 188",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-188.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-189",
+      "description": "Car animation frame 189",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-189.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-190",
+      "description": "Car animation frame 190",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-190.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-191",
+      "description": "Car animation frame 191",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-191.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-192",
+      "description": "Car animation frame 192",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-192.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-193",
+      "description": "Car animation frame 193",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-193.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-194",
+      "description": "Car animation frame 194",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-194.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-195",
+      "description": "Car animation frame 195",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-195.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-196",
+      "description": "Car animation frame 196",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-196.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-197",
+      "description": "Car animation frame 197",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-197.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-198",
+      "description": "Car animation frame 198",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-198.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-199",
+      "description": "Car animation frame 199",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-199.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-200",
+      "description": "Car animation frame 200",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-200.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-201",
+      "description": "Car animation frame 201",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-201.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-202",
+      "description": "Car animation frame 202",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-202.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-203",
+      "description": "Car animation frame 203",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-203.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-204",
+      "description": "Car animation frame 204",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-204.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-205",
+      "description": "Car animation frame 205",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-205.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-206",
+      "description": "Car animation frame 206",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-206.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-207",
+      "description": "Car animation frame 207",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-207.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-208",
+      "description": "Car animation frame 208",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-208.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-209",
+      "description": "Car animation frame 209",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-209.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-210",
+      "description": "Car animation frame 210",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-210.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-211",
+      "description": "Car animation frame 211",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-211.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-212",
+      "description": "Car animation frame 212",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-212.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-213",
+      "description": "Car animation frame 213",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-213.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-214",
+      "description": "Car animation frame 214",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-214.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-215",
+      "description": "Car animation frame 215",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-215.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-216",
+      "description": "Car animation frame 216",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-216.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-217",
+      "description": "Car animation frame 217",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-217.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-218",
+      "description": "Car animation frame 218",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-218.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-219",
+      "description": "Car animation frame 219",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-219.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-220",
+      "description": "Car animation frame 220",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-220.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-221",
+      "description": "Car animation frame 221",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-221.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-222",
+      "description": "Car animation frame 222",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-222.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-223",
+      "description": "Car animation frame 223",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-223.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-224",
+      "description": "Car animation frame 224",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-224.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-225",
+      "description": "Car animation frame 225",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-225.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-226",
+      "description": "Car animation frame 226",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-226.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-227",
+      "description": "Car animation frame 227",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-227.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-228",
+      "description": "Car animation frame 228",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-228.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-229",
+      "description": "Car animation frame 229",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-229.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-230",
+      "description": "Car animation frame 230",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-230.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-231",
+      "description": "Car animation frame 231",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-231.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-232",
+      "description": "Car animation frame 232",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-232.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-233",
+      "description": "Car animation frame 233",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-233.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-234",
+      "description": "Car animation frame 234",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-234.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-235",
+      "description": "Car animation frame 235",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-235.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-236",
+      "description": "Car animation frame 236",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-236.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-237",
+      "description": "Car animation frame 237",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-237.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-238",
+      "description": "Car animation frame 238",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-238.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-239",
+      "description": "Car animation frame 239",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-239.jpg",
+      "imageHint": "car render"
+    },
+    {
+      "id": "sequence-240",
+      "description": "Car animation frame 240",
+      "imageUrl": "https://oxeagjlrwwwgpjxgyntu.supabase.co/storage/v1/object/public/asset/lambo%20png/ezgif-frame-240.jpg",
+      "imageHint": "car render"
     }
   ]
 }
