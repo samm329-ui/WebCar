@@ -60,6 +60,7 @@ export default function ScrollHero() {
   const [loading, setLoading] = useState(true);
   const [progress, setProgress] = useState(0);
   const [loadProgress, setLoadProgress] = useState(0);
+  const [autoplayActive, setAutoplayActive] = useState(true);
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -70,6 +71,15 @@ export default function ScrollHero() {
   const targetFrame = useRef(0);
 
   useEffect(() => {
+    const isMobile = window.innerWidth < 768;
+    const hasAutoplayed = sessionStorage.getItem('heroAutoplayed');
+    
+    if (!isMobile || hasAutoplayed) {
+        setAutoplayActive(false);
+    } else {
+      sessionStorage.setItem('heroAutoplayed', 'true');
+    }
+
     const preloadImages = async () => {
       let loadedCount = 0;
       const imagePromises = Array.from({ length: FRAME_COUNT }, (_, i) => {
@@ -103,22 +113,58 @@ export default function ScrollHero() {
   }, [toast]);
 
   useEffect(() => {
-    if (loading || !scrollRef.current) return;
+    if (loading) return;
 
-    const isMobile = window.innerWidth < 768; // md breakpoint
+    const isMobile = window.innerWidth < 768;
+
+    if (autoplayActive && isMobile) {
+        const autoplayDuration = 5000; // 5 seconds
+        let startTime: number | null = null;
+        const startProgress = 0.05;
+        const endProgress = 1.0;
+
+        const animate = (time: number) => {
+            if (!startTime) startTime = time;
+            const elapsedTime = time - startTime;
+            const animationProgress = Math.min(elapsedTime / autoplayDuration, 1);
+            
+            const newProgress = startProgress + (endProgress - startProgress) * animationProgress;
+            setProgress(newProgress);
+
+            if (animationProgress < 1) {
+                requestAnimationFrame(animate);
+            } else {
+                setAutoplayActive(false);
+                 if (scrollRef.current) {
+                    const scrollableHeight = scrollRef.current.scrollHeight - window.innerHeight;
+                    window.scrollTo({ top: scrollableHeight * newProgress, behavior: 'auto' });
+                }
+            }
+        };
+        requestAnimationFrame(animate);
+        return;
+    }
+
+
+    if (!scrollRef.current) return;
+
     const firstTextSection = TEXT_SECTIONS[0];
-
     const setInitialScroll = () => {
         if (isMobile && scrollRef.current && firstTextSection) {
             const scrollableHeight = scrollRef.current.scrollHeight - window.innerHeight;
             const initialScrollPosition = scrollableHeight * firstTextSection.start;
             window.scrollTo(0, initialScrollPosition);
+             setProgress(firstTextSection.start);
         }
     }
 
-    setInitialScroll();
+    if(!isMobile || !autoplayActive) {
+      setInitialScroll();
+    }
+
 
     const handleScroll = () => {
+       if (autoplayActive) return;
       if (scrollRef.current) {
         const rect = scrollRef.current.getBoundingClientRect();
         const scrollableHeight = scrollRef.current.scrollHeight - window.innerHeight;
@@ -133,10 +179,10 @@ export default function ScrollHero() {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [loading]);
+  }, [loading, autoplayActive]);
 
   useEffect(() => {
-    if (loading || images.length === 0) return;
+    if (images.length === 0) return;
 
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -154,7 +200,7 @@ export default function ScrollHero() {
     const render = () => {
       targetFrame.current = progress * (FRAME_COUNT - 1);
       currentFrame.current += (targetFrame.current - currentFrame.current) * 0.1;
-      const frameIndex = Math.round(currentFrame.current);
+      const frameIndex = Math.max(0, Math.min(FRAME_COUNT - 1, Math.round(currentFrame.current)));
       
       const img = images[frameIndex];
       if (img) {
@@ -174,9 +220,9 @@ export default function ScrollHero() {
       }
       window.removeEventListener('resize', setCanvasSize);
     };
-  }, [loading, images, progress]);
+  }, [images, progress]);
 
-  const initialFadeOpacity = Math.max(0, 1 - progress / 0.05);
+  const initialFadeOpacity = progress < 0.02 ? 1 - progress / 0.02 : 0;
   
   const firstTextSectionStart = TEXT_SECTIONS[0]?.start ?? 0.05;
   const textActive = progress > firstTextSectionStart;
@@ -184,7 +230,7 @@ export default function ScrollHero() {
 
 
   return (
-    <div ref={scrollRef} style={{ height: `${SCROLL_MULTIPLIER * 100}vh` }}>
+    <div ref={scrollRef} style={{ height: `${SCROLL_MULTIPLIER * 100}vh`, overflow: autoplayActive ? 'hidden' : 'auto' }}>
       <div className="sticky top-0 h-screen w-full overflow-hidden">
         {loading && (
           <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-background">
