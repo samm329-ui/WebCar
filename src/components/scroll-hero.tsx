@@ -162,6 +162,11 @@ export default function ScrollHero() {
   }, [loading, images, progress]);
 
   const initialFadeOpacity = Math.max(0, 1 - progress / 0.05);
+  
+  // Fade in a darker overlay when the text sections are active
+  const textActive = TEXT_SECTIONS.some(section => progress > section.start && progress < section.end);
+  const textOverlayOpacity = textActive ? Math.min((progress - TEXT_SECTIONS[0].start) / 0.05, 1) : 0;
+
 
   return (
     <div ref={scrollRef} style={{ height: `${SCROLL_MULTIPLIER * 100}vh` }}>
@@ -178,11 +183,19 @@ export default function ScrollHero() {
           </div>
         )}
         <canvas ref={canvasRef} className="absolute inset-0 z-0 h-full w-full" />
+        
+        {/* Initial brighter fade-in */}
         <div 
-          className="absolute inset-0 z-10 bg-background/50 pointer-events-none"
+          className="absolute inset-0 z-10 bg-background/30 pointer-events-none"
           style={{ opacity: initialFadeOpacity, transition: 'opacity 0.3s ease-out' }}
         ></div>
-        <div className="absolute inset-0 z-5 bg-gradient-to-t from-black/50 via-black/20 to-transparent pointer-events-none"></div>
+
+        {/* Darker overlay that fades in with text */}
+         <div 
+          className="absolute inset-0 z-5 bg-black/30 pointer-events-none"
+          style={{ opacity: textOverlayOpacity, transition: 'opacity 0.5s ease-in-out' }}
+        ></div>
+
         <div className="absolute inset-0 z-10 flex items-center justify-center">
           {TEXT_SECTIONS.map((section) => (
             <div
