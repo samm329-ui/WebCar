@@ -1,0 +1,86 @@
+#infinite-grid-menu-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.face-title,
+.face-description,
+.action-button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.face-title.active,
+.face-description.active,
+.action-button.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.face-title {
+    top: 20%;
+    font-size: 4rem;
+    letter-spacing: 0.1em;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.face-description {
+    top: calc(20% + 5rem);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    max-width: 400px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.action-button {
+    bottom: 20%;
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateX(-50%) scale(1.1);
+}
+
+.action-button-icon {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+/* Inactive states */
+.face-title.inactive,
+.face-description.inactive,
+.action-button.inactive {
+    opacity: 0;
+}
+
+.face-title.inactive {
+    transform: translateX(-50%) translateY(-20px);
+}
+
+.face-description.inactive {
+    transform: translateX(-50%) translateY(-20px);
+}
+
+.action-button.inactive {
+    transform: translateX(-50%) translateY(20px);
+}
