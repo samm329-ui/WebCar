@@ -163,9 +163,8 @@ export default function ScrollHero() {
 
   const initialFadeOpacity = Math.max(0, 1 - progress / 0.05);
   
-  // Fade in a darker overlay when the text sections are active
   const textActive = TEXT_SECTIONS.some(section => progress > section.start && progress < section.end);
-  const textOverlayOpacity = textActive ? Math.min((progress - TEXT_SECTIONS[0].start) / 0.05, 1) : 0;
+  const textOverlayOpacity = textActive ? Math.min((progress - TEXT_SECTIONS[0].start) / 0.05, 0.4) : 0;
 
 
   return (
@@ -184,29 +183,27 @@ export default function ScrollHero() {
         )}
         <canvas ref={canvasRef} className="absolute inset-0 z-0 h-full w-full" />
         
-        {/* Initial brighter fade-in */}
         <div 
           className="absolute inset-0 z-10 bg-background/30 pointer-events-none"
           style={{ opacity: initialFadeOpacity, transition: 'opacity 0.3s ease-out' }}
         ></div>
 
-        {/* Darker overlay that fades in with text */}
          <div 
-          className="absolute inset-0 z-5 bg-black/30 pointer-events-none"
+          className="absolute inset-0 z-5 bg-black/40 pointer-events-none"
           style={{ opacity: textOverlayOpacity, transition: 'opacity 0.5s ease-in-out' }}
         ></div>
 
-        <div className="absolute inset-0 z-10 flex items-center justify-center">
+        <div className="absolute inset-y-0 inset-x-0 md:inset-x-16 z-10 flex items-center justify-center top-1/4">
           {TEXT_SECTIONS.map((section) => (
             <div
               key={section.id}
               className={cn("absolute w-full max-w-4xl p-8 pointer-events-none flex flex-col justify-center", section.className)}
-              style={{ opacity: calculateOpacity(progress, section.start, section.end), top: '50%', transform: 'translateY(-50%)' }}
+              style={{ opacity: calculateOpacity(progress, section.start, section.end) }}
             >
-              <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl tracking-[0.1em] leading-none whitespace-nowrap">
+              <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl tracking-[0.1em] leading-none">
                 {section.title}
               </h1>
-              <p className="mt-4 font-body text-lg md:text-xl text-foreground/80 leading-relaxed tracking-wider">
+              <p className="mt-4 font-body text-lg md:text-xl text-foreground/80 leading-relaxed tracking-wider max-w-lg">
                 {section.subtitle}
               </p>
             </div>

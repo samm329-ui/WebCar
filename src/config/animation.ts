@@ -33,7 +33,7 @@ export const TEXT_SECTIONS: TextSection[] = [
     end: 0.5,
     title: 'Sculpted by Speed',
     subtitle: 'Every line and curve engineered for performance.',
-    className: 'items-start text-left left-8 md:left-16',
+    className: 'items-start text-left',
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ export const TEXT_SECTIONS: TextSection[] = [
     end: 0.75,
     title: 'The Art of the Drive',
     subtitle: 'Where luxury and power converge.',
-    className: 'items-end text-right right-8 md:right-16',
+    className: 'items-end text-right',
   },
   {
     id: 4,
