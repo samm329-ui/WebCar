@@ -1,6 +1,15 @@
+"use client";
+
 import { Car, Twitter, Instagram } from "lucide-react";
+import { useState, useEffect } from 'react';
 
 const Footer = () => {
+    const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+
+    useEffect(() => {
+        setCurrentYear(new Date().getFullYear());
+    }, []);
+
     return (
         <footer className="bg-primary/20 py-12">
             <div className="container mx-auto px-4 text-center text-foreground/60">
@@ -19,7 +28,7 @@ const Footer = () => {
                      <Instagram className="cursor-pointer hover:text-foreground transition-colors"/>
                 </div>
                 <div className="text-xs space-x-4">
-                    <span>© {new Date().getFullYear()} ScrollMotion Automotive. All Rights Reserved.</span>
+                    <span>© {currentYear} ScrollMotion Automotive. All Rights Reserved.</span>
                     <a href="#" className="hover:text-foreground">Privacy Policy</a>
                     <a href="#" className="hover:text-foreground">Terms of Service</a>
                 </div>
