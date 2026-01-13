@@ -33,14 +33,6 @@ const Services = () => {
                                 </CardContent>
                             </Card>
                         ))}
-                         <Card className="bg-primary/30 border-primary/50 text-center flex flex-col justify-center items-center p-4 md:p-6 aspect-square transition-all hover:bg-primary/50 hover:-translate-y-1 col-span-2 lg:col-span-3">
-                                <CardHeader className="p-0">
-                                   
-                                </CardHeader>
-                                <CardContent className="p-0 mt-3 md:mt-4">
-                                    <CardTitle className="font-body text-xs md:text-sm font-medium tracking-wide">And much more...</CardTitle>
-                                </CardContent>
-                            </Card>
                     </div>
                 </div>
             </div>
