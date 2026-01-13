@@ -13,12 +13,10 @@ import {
   SheetContent,
   SheetTrigger,
   SheetClose,
-  SheetHeader,
-  SheetTitle
 } from "@/components/ui/sheet"
 import { Input } from './ui/input';
 
-const NAV_LINKS = ["Services & Products", "Gallery", "About", "Contact"];
+const NAV_LINKS = ["Services & Products", "Categories", "Gallery", "About", "Contact"];
 
 const SearchModal = () => (
   <Dialog>
@@ -51,16 +49,16 @@ const MobileNav = () => (
         <Menu />
       </Button>
     </SheetTrigger>
-    <SheetContent side="left" className="bg-background/90 backdrop-blur-sm border-primary/50">
-        <SheetHeader>
-          <SheetTitle className="sr-only">Mobile Navigation</SheetTitle>
-        </SheetHeader>
+    <SheetContent side="left" className="bg-background/95 backdrop-blur-sm border-r-primary/20 w-full">
         <div className="flex flex-col items-center justify-center h-full gap-8">
             {NAV_LINKS.map(link => (
                 <SheetClose key={link} asChild>
-                    <a href={`#${link.toLowerCase().replace(/ & /g, '-')}`} className="font-body text-xl uppercase tracking-widest hover:text-foreground/80 transition-colors">{link}</a>
+                    <a href={`#${link.toLowerCase().replace(/ & /g, '-')}`} className="font-body text-2xl uppercase tracking-widest hover:text-foreground/80 transition-colors">{link}</a>
                 </SheetClose>
             ))}
+             <SheetClose asChild>
+                <Button  size="lg" className="font-body font-semibold uppercase tracking-widest text-base absolute bottom-16 left-4 right-4">Get Quote</Button>
+            </SheetClose>
         </div>
     </SheetContent>
   </Sheet>
@@ -72,22 +70,23 @@ const Navigation = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
+      setIsScrolled(window.scrollY > 50);
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
     <nav className={cn(
-      "fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-background shadow-md",
-      isScrolled ? "h-16" : "h-20"
+      "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+      isScrolled ? "h-16 bg-background shadow-md" : "h-20 bg-transparent"
     )}>
       <div className="container mx-auto h-full flex items-center justify-between px-4">
-        <div className="flex items-center gap-2">
-            <Car className="text-foreground" size={isScrolled ? 24 : 28} />
-            <span className={cn("font-headline text-xl md:text-2xl tracking-widest transition-all", isScrolled ? "text-xl": "text-2xl")}>ScrollMotion</span>
-        </div>
+        <a href="#" className="flex items-center gap-2">
+            <Car className="text-foreground transition-all" size={isScrolled ? 24 : 28} />
+            <span className={cn("font-headline tracking-widest transition-all", isScrolled ? "text-xl": "text-2xl")}>ScrollMotion</span>
+        </a>
         <div className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map(link => (
                 <a key={link} href={`#${link.toLowerCase().replace(/ & /g, '-')}`} className="font-body text-sm uppercase tracking-widest hover:text-foreground/80 transition-colors">{link}</a>

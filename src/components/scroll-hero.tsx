@@ -163,8 +163,9 @@ export default function ScrollHero() {
 
   const initialFadeOpacity = Math.max(0, 1 - progress / 0.05);
   
-  const textActive = TEXT_SECTIONS.some(section => progress > section.start && progress < section.end);
-  const textOverlayOpacity = textActive ? Math.min((progress - TEXT_SECTIONS[0].start) / 0.05, 0.4) : 0;
+  const firstTextSectionStart = TEXT_SECTIONS[0]?.start ?? 0.05;
+  const textActive = progress > firstTextSectionStart;
+  const textOverlayOpacity = textActive ? Math.min((progress - firstTextSectionStart) / 0.05, 0.4) : 0;
 
 
   return (
@@ -199,7 +200,7 @@ export default function ScrollHero() {
           {TEXT_SECTIONS.map((section) => (
             <div
               key={section.id}
-              className={cn("absolute w-full max-w-4xl p-8 pointer-events-none flex flex-col justify-center", section.className)}
+              className={cn("absolute w-full max-w-4xl p-8 pointer-events-none flex flex-col", section.className)}
               style={{ opacity: calculateOpacity(progress, section.start, section.end) }}
             >
               <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl tracking-[0.1em] leading-none [text-shadow:0_4px_8px_rgba(0,0,0,0.7)]">

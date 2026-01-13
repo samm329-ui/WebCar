@@ -16,7 +16,7 @@ const categories = [
 ];
 
 const Categories = () => {
-    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false, align: 'start' });
+    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'start' });
 
     const scrollPrev = useCallback(() => {
         if (emblaApi) emblaApi.scrollPrev()
@@ -29,7 +29,7 @@ const Categories = () => {
     return (
         <section id="categories" className="py-24 bg-primary/10">
             <div className="container mx-auto px-4">
-                <h2 className="font-headline text-5xl tracking-wider text-center mb-12">Product Categories</h2>
+                <h2 className="font-headline text-4xl md:text-5xl tracking-wider text-center mb-12">Product Categories</h2>
                 
                 {/* Desktop Grid */}
                 <div className="hidden md:grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4">
@@ -41,11 +41,11 @@ const Categories = () => {
                 </div>
 
                 {/* Mobile Carousel */}
-                <div className="md:hidden">
+                <div className="md:hidden -mx-4">
                     <div className="overflow-hidden" ref={emblaRef}>
                         <div className="flex -ml-4">
                             {categories.map(category => (
-                                <div key={category} className="flex-grow-0 flex-shrink-0 basis-1/2 sm:basis-1/3 pl-4">
+                                <div key={category} className="flex-grow-0 flex-shrink-0 basis-[70%] sm:basis-1/3 pl-4">
                                      <Card className="bg-primary/30 border-primary/50 h-32 flex items-center justify-center p-4">
                                         <CardTitle className="font-body text-sm font-medium tracking-wide text-center">{category}</CardTitle>
                                     </Card>
@@ -54,8 +54,8 @@ const Categories = () => {
                         </div>
                     </div>
                     <div className="flex justify-center gap-4 mt-8">
-                        <button onClick={scrollPrev}><ChevronLeft /></button>
-                        <button onClick={scrollNext}><ChevronRight /></button>
+                        <button onClick={scrollPrev} className="p-2"><ChevronLeft /></button>
+                        <button onClick={scrollNext} className="p-2"><ChevronRight /></button>
                     </div>
                 </div>
             </div>
