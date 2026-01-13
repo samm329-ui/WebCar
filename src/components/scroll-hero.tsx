@@ -193,6 +193,8 @@ export default function ScrollHero() {
           style={{ opacity: textOverlayOpacity, transition: 'opacity 0.5s ease-in-out' }}
         ></div>
 
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-[radial-gradient(ellipse_at_bottom_right,_rgba(0,0,0,0.7)_0%,_rgba(0,0,0,0)_70%)] pointer-events-none z-10"></div>
+
         <div className="absolute inset-0 z-10 flex items-center justify-center">
           {TEXT_SECTIONS.map((section) => (
             <div
