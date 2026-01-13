@@ -25,7 +25,7 @@ export const TEXT_SECTIONS: TextSection[] = [
     end: 0.25,
     title: 'Design in Motion',
     subtitle: 'A dynamic visual journey of automotive excellence.',
-    className: 'top-1/4 left-1/2 -translate-x-1/2 text-center',
+    className: 'top-1/4 left-1/2 -translate-x-1/2 text-center w-[90%]',
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ export const TEXT_SECTIONS: TextSection[] = [
     end: 0.5,
     title: 'Sculpted by Speed',
     subtitle: 'Every line and curve engineered for performance.',
-    className: 'top-1/3 left-12',
+    className: 'top-1/3 left-8 md:left-12',
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ export const TEXT_SECTIONS: TextSection[] = [
     end: 0.75,
     title: 'The Art of the Drive',
     subtitle: 'Where luxury and power converge.',
-    className: 'top-1/2 right-12 text-right',
+    className: 'top-1/2 right-8 md:right-12 text-right',
   },
   {
     id: 4,
@@ -49,6 +49,6 @@ export const TEXT_SECTIONS: TextSection[] = [
     end: 0.98,
     title: 'Experience the Apex',
     subtitle: 'Redefining the boundaries of performance.',
-    className: 'bottom-1/4 left-1/2 -translate-x-1/2 text-center',
+    className: 'bottom-1/4 left-1/2 -translate-x-1/2 text-center w-[90%]',
   },
 ];
