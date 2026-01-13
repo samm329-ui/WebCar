@@ -6,8 +6,6 @@ import { useToast } from "@/hooks/use-toast";
 import { Loader } from './ui/loader';
 import { cn } from '@/lib/utils';
 
-const AUTOPLAY_DURATION = 4000; // 4 seconds for the autoplay
-
 const calculateOpacity = (progress: number, start: number, end: number): number => {
     if (progress < start || progress > end) return 0;
     
@@ -62,9 +60,7 @@ export default function ScrollHero() {
   const [loading, setLoading] = useState(true);
   const [progress, setProgress] = useState(0);
   const [loadProgress, setLoadProgress] = useState(0);
-  const [isAutoplaying, setIsAutoplaying] = useState(false);
-  const [hasAutoplayed, setHasAutoplayed] = useState(true); // Default to true, set to false on client
-
+  
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const { toast } = useToast();
@@ -74,9 +70,6 @@ export default function ScrollHero() {
   const targetFrame = useRef(0);
 
   useEffect(() => {
-    // This effect runs only on the client
-    setHasAutoplayed(sessionStorage.getItem('heroAutoplayed') === 'true');
-
     const preloadImages = async () => {
       let loadedCount = 0;
       const imagePromises = Array.from({ length: FRAME_COUNT }, (_, i) => {
@@ -108,52 +101,9 @@ export default function ScrollHero() {
 
     preloadImages();
   }, [toast]);
-
+  
   useEffect(() => {
-    if (loading || hasAutoplayed || images.length === 0) return;
-
-    const isMobile = window.innerWidth < 768;
-    if (isMobile) {
-      setIsAutoplaying(true);
-      sessionStorage.setItem('heroAutoplayed', 'true');
-      setHasAutoplayed(true); // Ensure it doesn't run again in this session
-
-      let startTime: number | null = null;
-      const autoplayAnimation = (timestamp: number) => {
-        if (!startTime) startTime = timestamp;
-        const elapsedTime = timestamp - startTime;
-        const autoplayProgress = Math.min(elapsedTime / AUTOPLAY_DURATION, 1);
-        
-        setProgress(autoplayProgress);
-
-        if (autoplayProgress < 1) {
-          animationFrameId.current = requestAnimationFrame(autoplayAnimation);
-        } else {
-          setIsAutoplaying(false);
-          // Set final scroll position
-          if(scrollRef.current) {
-            const scrollableHeight = scrollRef.current.scrollHeight - window.innerHeight;
-            window.scrollTo({ top: scrollableHeight, behavior: 'auto' });
-          }
-        }
-      };
-      animationFrameId.current = requestAnimationFrame(autoplayAnimation);
-    } else {
-      // Not mobile, so we mark autoplay as done for this session anyway
-      sessionStorage.setItem('heroAutoplayed', 'true');
-      setHasAutoplayed(true);
-    }
-
-    return () => {
-        if (animationFrameId.current) {
-            cancelAnimationFrame(animationFrameId.current);
-        }
-    }
-  }, [loading, hasAutoplayed, images.length]);
-
-
-  useEffect(() => {
-    if (loading || isAutoplaying) return;
+    if (loading) return;
 
     const handleScroll = () => {
       if (scrollRef.current) {
@@ -170,7 +120,7 @@ export default function ScrollHero() {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [loading, isAutoplaying]);
+  }, [loading]);
 
   useEffect(() => {
     if (images.length === 0) return;
@@ -189,8 +139,6 @@ export default function ScrollHero() {
     }
 
     const render = () => {
-      // During autoplay, progress is driven by the autoplay animation.
-      // Otherwise, it's driven by scroll.
       targetFrame.current = progress * (FRAME_COUNT - 1);
       
       // Smooth the frame transition
@@ -206,7 +154,6 @@ export default function ScrollHero() {
     };
 
     setCanvasSize();
-    // Only render if we have images and are not in a state where another animation loop is running
     if (animationFrameId.current) cancelAnimationFrame(animationFrameId.current);
     render();
 
@@ -218,9 +165,9 @@ export default function ScrollHero() {
       }
       window.removeEventListener('resize', setCanvasSize);
     };
-  }, [images, progress, isAutoplaying]);
+  }, [images, progress]);
 
-  const initialFadeOpacity = progress < 0.02 && !isAutoplaying ? 1 - progress / 0.02 : 0;
+  const initialFadeOpacity = progress < 0.02 ? 1 - progress / 0.02 : 0;
   
   const firstTextSectionStart = TEXT_SECTIONS[0]?.start ?? 0.05;
   const textActive = progress > firstTextSectionStart;
@@ -228,7 +175,7 @@ export default function ScrollHero() {
 
 
   return (
-    <div ref={scrollRef} style={{ height: `${SCROLL_MULTIPLIER * 100}vh`, overflow: isAutoplaying ? 'hidden' : 'auto' }}>
+    <div ref={scrollRef} style={{ height: `${SCROLL_MULTIPLIER * 100}vh` }}>
       <div className="sticky top-0 h-screen w-full overflow-hidden">
         {loading && (
           <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-background">
