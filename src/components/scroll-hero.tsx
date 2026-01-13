@@ -161,6 +161,7 @@ export default function ScrollHero() {
     };
   }, [loading, images, progress]);
 
+  const initialFadeOpacity = Math.max(0, 1 - progress / 0.05);
 
   return (
     <div ref={scrollRef} style={{ height: `${SCROLL_MULTIPLIER * 100}vh` }}>
@@ -177,6 +178,10 @@ export default function ScrollHero() {
           </div>
         )}
         <canvas ref={canvasRef} className="absolute inset-0 z-0 h-full w-full" />
+        <div 
+          className="absolute inset-0 z-1 bg-background pointer-events-none"
+          style={{ opacity: initialFadeOpacity, transition: 'opacity 0.3s ease-out' }}
+        ></div>
         <div className="absolute inset-0 z-5 bg-gradient-to-t from-black/100 via-black/50 to-transparent pointer-events-none"></div>
         <div className="absolute inset-0 z-10">
           {TEXT_SECTIONS.map((section) => (
