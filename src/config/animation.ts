@@ -25,7 +25,7 @@ export const TEXT_SECTIONS: TextSection[] = [
     end: 0.25,
     title: 'Design in Motion',
     subtitle: 'A dynamic visual journey of automotive excellence.',
-    className: 'top-1/4 left-1/2 -translate-x-1/2 text-center w-[90%]',
+    className: 'top-[35%] left-1/2 -translate-x-1/2 text-center w-[90%]',
   },
   {
     id: 2,
