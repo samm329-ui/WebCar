@@ -179,7 +179,7 @@ export default function ScrollHero() {
         )}
         <canvas ref={canvasRef} className="absolute inset-0 z-0 h-full w-full" />
         <div 
-          className="absolute inset-0 z-1 bg-background pointer-events-none"
+          className="absolute inset-0 z-10 bg-background/80 pointer-events-none"
           style={{ opacity: initialFadeOpacity, transition: 'opacity 0.3s ease-out' }}
         ></div>
         <div className="absolute inset-0 z-5 bg-gradient-to-t from-black/100 via-black/50 to-transparent pointer-events-none"></div>
@@ -187,8 +187,8 @@ export default function ScrollHero() {
           {TEXT_SECTIONS.map((section) => (
             <div
               key={section.id}
-              className={cn("absolute w-full max-w-2xl p-8 pointer-events-none", section.className)}
-              style={{ opacity: calculateOpacity(progress, section.start, section.end), transition: 'opacity 0.2s ease-out' }}
+              className={cn("absolute w-full max-w-4xl p-8 pointer-events-none flex flex-col justify-center", section.className)}
+              style={{ opacity: calculateOpacity(progress, section.start, section.end), transition: 'opacity 0.2s ease-out', height: '100vh' }}
             >
               <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl tracking-[0.1em] leading-none">
                 {section.title}
