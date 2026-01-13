@@ -1,3 +1,4 @@
+
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export const FRAME_COUNT = 240;
@@ -52,3 +53,5 @@ export const TEXT_SECTIONS: TextSection[] = [
     className: 'items-center text-center',
   },
 ];
+
+    
