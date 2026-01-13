@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { useState, useRef, useEffect } from 'react';
 import { FRAME_COUNT, getFrameImage, SCROLL_MULTIPLIER, TEXT_SECTIONS } from '@/config/animation';
@@ -103,6 +103,21 @@ export default function ScrollHero() {
   }, [toast]);
 
   useEffect(() => {
+    if (loading || !scrollRef.current) return;
+
+    const isMobile = window.innerWidth < 768; // md breakpoint
+    const firstTextSection = TEXT_SECTIONS[0];
+
+    const setInitialScroll = () => {
+        if (isMobile && scrollRef.current && firstTextSection) {
+            const scrollableHeight = scrollRef.current.scrollHeight - window.innerHeight;
+            const initialScrollPosition = scrollableHeight * firstTextSection.start;
+            window.scrollTo(0, initialScrollPosition);
+        }
+    }
+
+    setInitialScroll();
+
     const handleScroll = () => {
       if (scrollRef.current) {
         const rect = scrollRef.current.getBoundingClientRect();
@@ -113,12 +128,12 @@ export default function ScrollHero() {
     };
     
     window.addEventListener('scroll', handleScroll, { passive: true });
-    handleScroll();
+    handleScroll(); // Initial call
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [loading]);
 
   useEffect(() => {
     if (loading || images.length === 0) return;
