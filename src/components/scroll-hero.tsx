@@ -184,7 +184,7 @@ export default function ScrollHero() {
         <canvas ref={canvasRef} className="absolute inset-0 z-0 h-full w-full" />
         
         <div 
-          className="absolute inset-0 z-10 bg-background/30 pointer-events-none"
+          className="absolute inset-0 z-10 bg-background/50 pointer-events-none"
           style={{ opacity: initialFadeOpacity, transition: 'opacity 0.3s ease-out' }}
         ></div>
 
@@ -193,17 +193,17 @@ export default function ScrollHero() {
           style={{ opacity: textOverlayOpacity, transition: 'opacity 0.5s ease-in-out' }}
         ></div>
 
-        <div className="absolute inset-y-0 inset-x-0 md:inset-x-16 z-10 flex items-center justify-center top-1/4">
+        <div className="absolute inset-0 z-10 flex items-center justify-center">
           {TEXT_SECTIONS.map((section) => (
             <div
               key={section.id}
               className={cn("absolute w-full max-w-4xl p-8 pointer-events-none flex flex-col justify-center", section.className)}
               style={{ opacity: calculateOpacity(progress, section.start, section.end) }}
             >
-              <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl tracking-[0.1em] leading-none">
+              <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl tracking-[0.1em] leading-none [text-shadow:0_4px_8px_rgba(0,0,0,0.7)]">
                 {section.title}
               </h1>
-              <p className="mt-4 font-body text-lg md:text-xl text-foreground/80 leading-relaxed tracking-wider max-w-lg">
+              <p className="mt-4 font-body text-lg md:text-xl text-foreground/80 leading-relaxed tracking-wider max-w-lg [text-shadow:0_2px_4px_rgba(0,0,0,0.7)]">
                 {section.subtitle}
               </p>
             </div>
