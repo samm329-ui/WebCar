@@ -182,15 +182,15 @@ export default function ScrollHero() {
           className="absolute inset-0 z-10 bg-background/80 pointer-events-none"
           style={{ opacity: initialFadeOpacity, transition: 'opacity 0.3s ease-out' }}
         ></div>
-        <div className="absolute inset-0 z-5 bg-gradient-to-t from-black/100 via-black/50 to-transparent pointer-events-none"></div>
-        <div className="absolute inset-0 z-10">
+        <div className="absolute inset-0 z-5 bg-gradient-to-t from-black/70 via-black/30 to-transparent pointer-events-none"></div>
+        <div className="absolute inset-0 z-10 flex items-center justify-center">
           {TEXT_SECTIONS.map((section) => (
             <div
               key={section.id}
               className={cn("absolute w-full max-w-4xl p-8 pointer-events-none flex flex-col justify-center", section.className)}
-              style={{ opacity: calculateOpacity(progress, section.start, section.end), transition: 'opacity 0.2s ease-out', height: '100vh' }}
+              style={{ opacity: calculateOpacity(progress, section.start, section.end), transition: 'opacity 0.2s ease-out', top: '50%', transform: 'translateY(-50%)' }}
             >
-              <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl tracking-[0.1em] leading-none">
+              <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl tracking-[0.1em] leading-none whitespace-nowrap">
                 {section.title}
               </h1>
               <p className="mt-4 font-body text-lg md:text-xl text-foreground/80 leading-relaxed tracking-wider">
